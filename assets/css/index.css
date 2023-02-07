@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.container-wrapper{
+    position: relative;
+    width: 100%;
+    min-height: 60rem;
+    background-color: #08a;
+}
+
+.container-wrapper .title-container{
+    text-align: center;
+    font-size: 30px;
+}
+
+.container-wrapper .container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .4s ease;
+    
+}
+
+.container img{
+    position: absolute;
+    top: 5rem;
+}
+
+.container .img-acesa{
+    display: none;
+}
+
+.container-buttons{
+    position: absolute;
+    bottom:3rem;
+    left: 5rem;
+}
+
+.container-buttons button{
+    cursor: pointer;
+    border: none;
+    width: 6rem;
+    height: 4rem;
+    background-color: rgb(17, 22, 40);
+}
