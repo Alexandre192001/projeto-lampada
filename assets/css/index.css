@@ -8,43 +8,54 @@
 .container-wrapper{
     position: relative;
     width: 100%;
-    min-height: 60rem;
-    background-color: #08a;
+    min-height: 61rem;
+    background-color: rgb(180, 63, 34);
 }
 
-.container-wrapper .title-container{
+.title-container{
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.container-wrapper .container{
-    width: 100%;
+.container-elements{
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all .4s ease;
-    
+    flex-direction: column;
+    gap: 5rem;
+    position: relative;
+    width: 100%;
 }
 
-.container img{
-    position: absolute;
-    top: 5rem;
+.container-lampadas-wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10rem;
 }
 
-.container .img-acesa{
+
+.container-lampadas .img-acesa{
     display: none;
 }
 
 .container-buttons{
-    position: absolute;
-    bottom:3rem;
-    left: 5rem;
+    margin-top: 2rem;
 }
 
 .container-buttons button{
-    cursor: pointer;
     border: none;
-    width: 6rem;
-    height: 4rem;
-    background-color: rgb(17, 22, 40);
+    background-color: rgb(255, 255, 255);
+    padding: 1rem 5rem;
+    color: black;
+    border-radius: .4rem;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+.container-buttons button:hover{
+    background-color: blue;
+    color: #fff;
 }
