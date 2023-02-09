@@ -56,6 +56,6 @@
 }
 
 .container-buttons button:hover{
-    background-color: blue;
+    background-color: rgb(88, 40, 28);
     color: #fff;
 }
