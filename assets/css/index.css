@@ -9,7 +9,8 @@
     position: relative;
     width: 100%;
     min-height: 61rem;
-    background-color: rgb(180, 63, 34);
+    background-color: rgb(90, 66, 60);
+    overflow: hidden;
 }
 
 .title-container{
@@ -43,6 +44,11 @@
 
 .container-buttons{
     margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
 
 .container-buttons button{
@@ -58,4 +64,5 @@
 .container-buttons button:hover{
     background-color: rgb(88, 40, 28);
     color: #fff;
+    box-shadow: 1px 1px 1rem #000;
 }
