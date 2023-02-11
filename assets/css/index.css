@@ -66,3 +66,12 @@
     color: #fff;
     box-shadow: 1px 1px 1rem #000;
 }
+
+@media(max-width:400px){
+    .container-wrapper .title-container{
+        font-size: 40px;
+    }
+    .container-lampadas-wrapper .container-lampadas img{
+        width: 100%;
+    }
+}
