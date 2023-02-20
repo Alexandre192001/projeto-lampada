@@ -1,4 +1,4 @@
-<h1>Projeto Lâmpada</h1>
+<h1>Projeto da Lâmpada</h1>
 <hr>
 <h2>Linguagens Utilizadas:</h2>
 
